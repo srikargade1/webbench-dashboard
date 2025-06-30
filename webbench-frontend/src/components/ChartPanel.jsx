@@ -29,12 +29,13 @@ function ChartPanel() {
   const [overallCounts, setOverallCounts] = useState({ success: 0, failure: 0 });
   const [matrixStats, setMatrixStats] = useState([]);
 
+  // https://webbench-backend.onrender.com
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("http://backend:5000/stats/site");
-      const catRes = await fetch("http://backend:5000/stats/category");
-      const matrixRes = await fetch("http://backend:5000/stats/category-difficulty");
-      const tasksRes = await fetch("http://backend:5000/tasks");
+      const res = await fetch("https://webbench-backend.onrender.com/site");
+      const catRes = await fetch("https://webbench-backend.onrender.com/stats/category");
+      const matrixRes = await fetch("https://webbench-backend.onrender.com/stats/category-difficulty");
+      const tasksRes = await fetch("https://webbench-backend.onrender.com/tasks");
 
       const siteData = await res.json();
       const categoryData = await catRes.json();

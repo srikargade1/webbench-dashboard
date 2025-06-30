@@ -14,9 +14,9 @@ function StatsPanel() {
   useEffect(() => {
     const fetchStats = async () => {
       try {
-        const siteRes = await fetch("http://backend:5000/stats/site");
-        const categoryRes = await fetch("http://backend:5000/stats/category");
-        const difficultyRes = await fetch("http://backend:5000/stats/difficulty");
+        const siteRes = await fetch("https://webbench-backend.onrender.com/stats/site");
+        const categoryRes = await fetch("https://webbench-backend.onrender.com/stats/category");
+        const difficultyRes = await fetch("https://webbench-backend.onrender.com/stats/difficulty");
 
         if (!siteRes.ok || !categoryRes.ok || !difficultyRes.ok) {
           throw new Error("Failed to fetch one or more stats.");

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "../styles/TaskTable.css";
 
 export default function TaskTable() {
@@ -8,7 +8,8 @@ export default function TaskTable() {
   const [error, setError] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedTask, setSelectedTask] = useState(null);
-  const tasksPerPage = 100;
+  const detailsRef = useRef(null);
+  const tasksPerPage = 50;
 
   useEffect(() => {
     fetch("http://localhost:5000/meta")
@@ -27,7 +28,7 @@ export default function TaskTable() {
       .then(res => res.json())
       .then(data => {
         setTasks(data);
-        setCurrentPage(1); // reset on filter change
+        setCurrentPage(1);
       })
       .catch(() => setError("Error loading tasks."));
   }, [filters]);
@@ -36,6 +37,44 @@ export default function TaskTable() {
   const endIdx = startIdx + tasksPerPage;
   const paginatedTasks = tasks.slice(startIdx, endIdx);
   const totalPages = Math.ceil(tasks.length / tasksPerPage);
+
+  const handleRowClick = (task) => {
+    setSelectedTask(task);
+    setTimeout(() => {
+      if (detailsRef.current) {
+        detailsRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 50);
+  };
+
+  const renderPageButtons = () => {
+    const pages = [];
+    if (totalPages <= 10) {
+      for (let i = 1; i <= totalPages; i++) pages.push(i);
+    } else {
+      pages.push(1);
+      if (currentPage > 4) pages.push("...");
+      for (let i = Math.max(2, currentPage - 2); i <= Math.min(totalPages - 1, currentPage + 2); i++) {
+        pages.push(i);
+      }
+      if (currentPage < totalPages - 3) pages.push("...");
+      pages.push(totalPages);
+    }
+
+    return pages.map((page, i) =>
+      page === "..." ? (
+        <span key={`ellipsis-${i}`} className="pagination-ellipsis">...</span>
+      ) : (
+        <button
+          key={page}
+          className={page === currentPage ? "active" : ""}
+          onClick={() => setCurrentPage(page)}
+        >
+          {page}
+        </button>
+      )
+    );
+  };
 
   return (
     <div className="task-table-wrapper">
@@ -73,7 +112,7 @@ export default function TaskTable() {
         </thead>
         <tbody>
           {paginatedTasks.map(task => (
-            <tr key={task.task_id} onClick={() => setSelectedTask(task)} style={{ cursor: "pointer" }}>
+            <tr key={task.task_id} onClick={() => handleRowClick(task)} style={{ cursor: "pointer" }}>
               <td>{task.task_id}</td>
               <td>{task.site}</td>
               <td><span className="badge badge-category">{task.category}</span></td>
@@ -88,20 +127,10 @@ export default function TaskTable() {
         </tbody>
       </table>
 
-      <div className="pagination">
-        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-          <button
-            key={page}
-            className={page === currentPage ? "active" : ""}
-            onClick={() => setCurrentPage(page)}
-          >
-            {page}
-          </button>
-        ))}
-      </div>
+      <div className="pagination">{renderPageButtons()}</div>
 
       {selectedTask && (
-        <div className="task-details-panel styled">
+        <div className="task-details-panel styled" ref={detailsRef}>
           <div className="panel-header">
             <h3>Task Details</h3>
             <button onClick={() => setSelectedTask(null)} className="close-btn">×</button>

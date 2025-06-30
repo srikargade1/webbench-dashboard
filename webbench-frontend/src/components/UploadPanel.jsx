@@ -18,8 +18,10 @@ export default function UploadPanel() {
             onUploadSuccess={(count) => {
               setUploadSuccess(true);
               setTaskCount(count);
-            }}
-          />
+            }}/>
+        <p className="upload-note">
+              Expected CSV columns (in order): <code>ID, site, category, difficulty, task_description, task_id, task_output, task_link, evaluation_result, evaluation_reason, result_flag</code>
+        </p>
         </div>
 
         {taskCount !== null && (

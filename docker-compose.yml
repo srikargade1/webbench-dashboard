@@ -1,0 +1,19 @@
+# docker-compose.yml
+version: "3.9"
+
+services:
+  backend:
+    build: ./webbench-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./webbench-backend:/app
+    restart: always
+
+  frontend:
+    build: ./webbench-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: always

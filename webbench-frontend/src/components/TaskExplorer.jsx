@@ -8,7 +8,7 @@ export default function TaskExplorer() {
     <div className="task-explorer-container">
       <h1 className="task-explorer-heading">Task Explorer</h1>
       <p className="task-explorer-subtitle">
-        Filter and explore browser automation benchmark results across websites, categories, and outcomes.
+        Filter and explore browser automation benchmark results across websites, categories, and outcomes. Click on a task to view its data.
       </p>
       <div className="task-explorer-card">
         <TaskTable />

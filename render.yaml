@@ -4,7 +4,7 @@ services:
     env: docker
     repo: https://github.com/srikargade1/webbench-dashboard
     dockerfilePath: ./webbench-backend/Dockerfile
-    buildCommand: ""
+    context: ./webbench-backend
     plan: free
     envVars:
       - key: FLASK_ENV
@@ -16,7 +16,7 @@ services:
     env: docker
     repo: https://github.com/srikargade1/webbench-dashboard
     dockerfilePath: ./webbench-frontend/Dockerfile
-    buildCommand: ""
+    context: ./webbench-frontend
     plan: free
     envVars: []
     autoDeploy: true

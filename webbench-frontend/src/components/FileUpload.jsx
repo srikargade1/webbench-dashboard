@@ -14,7 +14,7 @@ export default function FileUpload({ onUploadSuccess }) {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://127.0.0.1:5000/upload", {
+      const res = await fetch("http://backend:5000/upload", {
         method: "POST",
         body: formData,
       });

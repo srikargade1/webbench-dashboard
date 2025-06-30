@@ -31,10 +31,10 @@ function ChartPanel() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("http://localhost:5000/stats/site");
-      const catRes = await fetch("http://localhost:5000/stats/category");
-      const matrixRes = await fetch("http://localhost:5000/stats/category-difficulty");
-      const tasksRes = await fetch("http://localhost:5000/tasks");
+      const res = await fetch("http://backend:5000/stats/site");
+      const catRes = await fetch("http://backend:5000/stats/category");
+      const matrixRes = await fetch("http://backend:5000/stats/category-difficulty");
+      const tasksRes = await fetch("http://backend:5000/tasks");
 
       const siteData = await res.json();
       const categoryData = await catRes.json();

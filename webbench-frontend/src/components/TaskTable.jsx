@@ -12,7 +12,7 @@ export default function TaskTable() {
   const tasksPerPage = 50;
 
   useEffect(() => {
-    fetch("http://localhost:5000/meta")
+    fetch("http://backend:5000/meta")
       .then(res => res.json())
       .then(setMeta)
       .catch(err => console.error("Meta load failed", err));
@@ -24,7 +24,7 @@ export default function TaskTable() {
       .map(([k, v]) => `${k}=${encodeURIComponent(v.toLowerCase())}`)
       .join("&");
 
-    fetch(`http://localhost:5000/tasks${query ? `?${query}` : ""}`)
+    fetch(`http://backend:5000/tasks${query ? `?${query}` : ""}`)
       .then(res => res.json())
       .then(data => {
         setTasks(data);

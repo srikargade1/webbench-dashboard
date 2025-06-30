@@ -1,19 +1,24 @@
-# docker-compose.yml
-version: "3.9"
-
 services:
-  backend:
-    build: ./webbench-backend
-    ports:
-      - "5000:5000"
-    volumes:
-      - ./webbench-backend:/app
-    restart: always
+  - type: web
+    name: webbench-backend
+    env: docker
+    repo: https://github.com/srikargade1/webbench-dashboard
+    dockerfilePath: ./webbench-backend/Dockerfile
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    plan: free
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    autoDeploy: true
 
-  frontend:
-    build: ./webbench-frontend
-    ports:
-      - "3000:3000"
-    depends_on:
-      - backend
-    restart: always
+  - type: web
+    name: webbench-frontend
+    env: docker
+    repo: https://github.com/srikargade1/webbench-dashboard
+    dockerfilePath: ./webbench-frontend/Dockerfile
+    buildCommand: ""
+    startCommand: serve -s build
+    plan: free
+    envVars: []
+    autoDeploy: true

@@ -1,0 +1,1942 @@
+[
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":71
+  },
+  {
+    "reason":"The bot failed to reach the given website",
+    "count":59
+  },
+  {
+    "reason":"The AI bot failed because repeated prompts blocked access.",
+    "count":19
+  },
+  {
+    "reason":"The bot reached the max retry limit and was not able to repeat or proceed",
+    "count":15
+  },
+  {
+    "reason":"Bot reach the max retry limit and wasnt able to proceed",
+    "count":13
+  },
+  {
+    "reason":"The bot failed to reach the serve or open the website",
+    "count":13
+  },
+  {
+    "reason":"The bot failed to proceed because the user was unable to complete the human verification step.",
+    "count":10
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials",
+    "count":8
+  },
+  {
+    "reason":"The bot failed to solve CAPTCHA",
+    "count":8
+  },
+  {
+    "reason":"The bot failed because the website kept showing the same error page for Dick's Sporting Goods.",
+    "count":8
+  },
+  {
+    "reason":"The bot failed to solve the human verification step, which prevented it from completing the task",
+    "count":8
+  },
+  {
+    "reason":"The bot successfully opened the page but failed to sign in.",
+    "count":7
+  },
+  {
+    "reason":"The bot is not able to reach the server or load the website",
+    "count":7
+  },
+  {
+    "reason":"Bot is facing signin issues and cannot proceed because of authentication error",
+    "count":6
+  },
+  {
+    "reason":"The bot was not able to complete the task due to issues with Google authentication and verification.",
+    "count":6
+  },
+  {
+    "reason":"The bot failed to reach and navigate through the website",
+    "count":6
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials as the website is asking for google verification",
+    "count":5
+  },
+  {
+    "reason":"The bot could not reach the website and an error message is showing in the recordings.",
+    "count":5
+  },
+  {
+    "reason":"The bot is not able to pass the human verification system of the website and is not making progress",
+    "count":5
+  },
+  {
+    "reason":"The bot reached the website, however it failed to solve CAPTCHA while logging in",
+    "count":5
+  },
+  {
+    "reason":"The bot is not able to solve the CAPTCHA to move forward",
+    "count":5
+  },
+  {
+    "reason":"captcha blocked agent",
+    "count":5
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login as the website is asking for captcha verification",
+    "count":5
+  },
+  {
+    "reason":"The bot failed to reach the website due to a failure to navigate to the URL, and did not provide any images or screen recordings.",
+    "count":5
+  },
+  {
+    "reason":"The bot cannot login with the given credentials for the site",
+    "count":4
+  },
+  {
+    "reason":"An ad blocker pop-up interrupted the bot on the homepage, preventing it from completing the task",
+    "count":4
+  },
+  {
+    "reason":"The bot is unable to complete the email verification for Microsoft",
+    "count":4
+  },
+  {
+    "reason":"Without logging in, the user cannot access the site's search functionality and the bot is unable to login with the given credentials",
+    "count":4
+  },
+  {
+    "reason":"The bot successfully opened the website but did not proceed past the sign-up page.",
+    "count":4
+  },
+  {
+    "reason":"The bot has not been able to reach the server as it had max retry limit",
+    "count":4
+  },
+  {
+    "reason":"Bot was stuck in navigation timeout and error",
+    "count":3
+  },
+  {
+    "reason":"the site requires email verification which the bot could not provide to proceed further",
+    "count":3
+  },
+  {
+    "reason":"The bot failed to got stuck while navigating the website and failed to complete the task",
+    "count":3
+  },
+  {
+    "reason":"The bot is stuck with runtime error and is unable to proceed",
+    "count":3
+  },
+  {
+    "reason":"The bot failed to load the website",
+    "count":3
+  },
+  {
+    "reason":"The bot failed to login to the website]",
+    "count":3
+  },
+  {
+    "reason":"The bot repeatedly logging out from the website, so it could not complete the task",
+    "count":3
+  },
+  {
+    "reason":"The bot failed to login to the account and move ahead with the task",
+    "count":3
+  },
+  {
+    "reason":"Bot failed to solve and complete the captcha requirement",
+    "count":3
+  },
+  {
+    "reason":"Bot is stuck at runtime error and cannot proceed",
+    "count":3
+  },
+  {
+    "reason":"The bot has reached the website and the comment section of a sports article. However, even though it has reached the comment section, it was not able to wrtie and submit the comment as it could not recognize or work out how to add the comment.",
+    "count":3
+  },
+  {
+    "reason":"AI Agent gets blocked by Google auth verification steps",
+    "count":3
+  },
+  {
+    "reason":"bot is facing difficulty in logging in to the Nike website with google account",
+    "count":3
+  },
+  {
+    "reason":"The bot failed to enter a valid Date of Birth, making it an incomplete task",
+    "count":2
+  },
+  {
+    "reason":"bot reached its limit for max retry",
+    "count":2
+  },
+  {
+    "reason":"The bot failed and got stuck on the website",
+    "count":2
+  },
+  {
+    "reason":"he bot failed to solve the verification CAPTCHA.",
+    "count":2
+  },
+  {
+    "reason":"The bot failed to complete the task as it got stuck while navigating the website",
+    "count":2
+  },
+  {
+    "reason":"The bot navigated to \"Create\" section and got stucked",
+    "count":2
+  },
+  {
+    "reason":"The bot did not attempted log in and got stucked in homepage so it could not complete the task",
+    "count":2
+  },
+  {
+    "reason":"The bot failed to reach the given website, and no screen recordings or images were available for this task.",
+    "count":2
+  },
+  {
+    "reason":"The bot failed to solve captcha and proceed further",
+    "count":2
+  },
+  {
+    "reason":"bot faced a website crash or it failed in loading the site as an error",
+    "count":2
+  },
+  {
+    "reason":"bot was stuck with verification and max steps",
+    "count":2
+  },
+  {
+    "reason":"Bot has reached max retry because of a google login error",
+    "count":2
+  },
+  {
+    "reason":"The bot has been redirected to iStock's website instead of visiting the pixabay website",
+    "count":2
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials, and the website is asking for email verification as well",
+    "count":2
+  },
+  {
+    "reason":"Bot was unable to locate the love radio or podcasts option in the given page. It failed to navigate thoroughly",
+    "count":2
+  },
+  {
+    "reason":"Bot is not able to select multiple languages to set for the website",
+    "count":2
+  },
+  {
+    "reason":"Bot was redirected to some other external link or website",
+    "count":2
+  },
+  {
+    "reason":"The website has blocked the bot for unusuall activity so it could not perform the task",
+    "count":2
+  },
+  {
+    "reason":"Bot has faced a server error",
+    "count":2
+  },
+  {
+    "reason":"The bot successfully opened the site but got stuck on the homepage and failed to continue the task.",
+    "count":2
+  },
+  {
+    "reason":"The bot logged in to the website but failed to complete the task as the task was blocked by a pop up for subscription",
+    "count":2
+  },
+  {
+    "reason":"The bot successfully opened the site but failed to complete the task as it remained stuck in running status",
+    "count":2
+  },
+  {
+    "reason":"Bot was not able to complete the task due to server error and unfinished navigation",
+    "count":2
+  },
+  {
+    "reason":"Bot could not set the delivery address as given in the task",
+    "count":2
+  },
+  {
+    "reason":"The bot successfully searched 'Climate Change\" but it has extracted only three insted of five articles",
+    "count":1
+  },
+  {
+    "reason":"The bot found articles in the Health section but failed to open the article content, preventing it from saving them",
+    "count":1
+  },
+  {
+    "reason":"The bot failed the task because the downloaded PDF file did not contain the word 'passport'",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because, in the News section, it was unable to retrieve the publication dates for the first two of the first three articles, so it was unable to complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because saved summer recipe items did not consistently appear in the 'My Saved' section,",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it did not navigate to the 'How to Enable 2FA' section.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because the notification settings in the TODAY account do not include an option for 'local weather updates,' preventing the user from enabling it",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because no article was available to save to the \"Tech Reviews\" list, preventing renaming it to \"Latest Tech Reviews\" or adding a review about gaming laptops.",
+    "count":1
+  },
+  {
+    "reason":"The bot selected flights from New York (JFK) to London (LHR) but failed to select the given date",
+    "count":1
+  },
+  {
+    "reason":"The bot accessed the 'Classic Meatloaf' recipe page but failed to extract nutritional analysis information, as calorie details per serving were not available on the page",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search \"NCIS\" insted it has extracted the output from homepage",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to browse, save three unique articles to a new reading list called",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully navigated \"Contact Us\" page but failed to extract email address",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to retrieve three article titles related to artificial intelligence from the UF Innovate section",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to access the downloadable recipe because the print buttons didn't work as expected and the login required to use the 'SAVE' feature wasn't completed in time",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve a list of 2022 movies with average ratings due to ineffective filters, irrelevant search results, and an inaccessible advanced search option",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the top 5 movies but has considered top 5 movies of one particular actor and also has not listed the ratings of those movies as well",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the newsletter signup due to repeated technical issues across all visible forms\u2014likely caused by reCAPTCHA validation errors, email restrictions",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to look for the search function on the website",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website but failed on the task because the UC Davis Library page did not display the opening hours or contact information for the main library",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate \u201cMichigan Online\u201d section insted it as navigated to \"Acadamic\" section and extracted the output",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate the GIRLS American Sleeve Ribbed\" collection, insted it navigated to 'Kids' section and extracted the output",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to log in to the website, which prevented it from completing the rest of the task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to update preferred size from \"Medium\" to \"Large.\"",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to add \"Politics\" to your followed topics list,",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to create a new topic-based feed by selecting topics like Politics, Sports, and Culture to customize your \"My Telegraph\" content",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully loggged in but there is no outdated address found in the Address Book",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because the site does not offer an option to create custom playlists or add video segments to them\u2014only saving videos is supported",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to access your new Telegraph account and complete your profile by choosing your preferred topics",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the  in-store pickup instructions",
+    "count":1
+  },
+  {
+    "reason":"The bot browsed LifeWear products from homepage but failed to extract the price",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it got stuck on the website and could not proceed further",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to gather information if the stores have in-store pickup for online orders rather has just given all the stores list in California",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to create the 'Revision Pack' StudyList containing documents on key course topics",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to complete the task of adding at least three Calculus-related documents from MIT to the \"Fall Semester Math Resources",
+    "count":1
+  },
+  {
+    "reason":"The bot navigate to Electronic Supplemenary Material page and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to login so it could not delete previously posted comment",
+    "count":1
+  },
+  {
+    "reason":"The bot navigate to \"UEFA Champions League\" but failed to sign in and post a comment",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it did not navigate to the 'Business' category.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve the latest 5 original series titles from the Sky Cinema 'Sky Original Films' section, resulting in an incomplete response.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because the Sky.com website does not provide easy access to a detailed Sports schedule, and attempts to find Formula 1 or cricket start times were blocked by unclear navigation and subscription prompts",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site and performed a search, but remained stuck on the page without proceeding further.",
+    "count":1
+  },
+  {
+    "reason":"\"The bot failed to access the 'Healthy Recipes' section and summarize the 'Quinoa Salad with Citrus Dressing' recipe",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site and searched for the content, but failed to compose the 100-word review.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the page but failed to sign in due to an incorrect CAPTCHA entry.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to rename the 'Summer Styles' collection to 'Resort Collection",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the publication date and author name from the featured article",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to filter 'legal case studies' documents by language, specifically for English and Italian.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the Deep Learning using the reference section",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched for articles on 'machine learning' but failed to apply the 2023 filter and record the number of results instead it extracted results from 2025",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to modify the 'Tacombi - Williamsburg' reservation by changing the dinner time",
+    "count":1
+  },
+  {
+    "reason":"The bot went to the website and logged in. The account shows a list for  \"Romantic dinner\" with three restaurants, but both the recording and screenshots do not show the names of the restaurants in the list.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to check last-minute table openings at 'Nobu' over the upcoming weekend.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to make a reservation at 'The Smith - Midtown,' including the note to request a window seat",
+    "count":1
+  },
+  {
+    "reason":"The bot has stucked in the homepage so it could not complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully performed the search but failed to complete the task due to an unsuccessful login and getting stuck on the page.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it was unable to log in and got stuck on the homepage.",
+    "count":1
+  },
+  {
+    "reason":"The failed to could not be completed because Redbubble does not provide a visible option to share a favorited design",
+    "count":1
+  },
+  {
+    "reason":"The bot has reached the website,but then went to another website springer nature. This has caused the bot to move to another site by following a link in springer.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched but failed to navigate your saved alerts, and select to be alerted daily for \"machine learning\"",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to comment on a question in the Ask Ubuntu community",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website, however it failed to solve CAPTCHA.",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to complete the task of accessing \"Introduction to Economics\" and verifying that a confirmation message appeared",
+    "count":1
+  },
+  {
+    "reason":"The failed to navigate to the Steam Forums",
+    "count":1
+  },
+  {
+    "reason":"To create a wishlist the bot needs to log in to the website first which was unsuccessful, making it an incomplete task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to edit the existing question on handling null pointer exceptions in Java",
+    "count":1
+  },
+  {
+    "reason":"the bot failed to complete the task as it is continuously redirected to the Stack Overflow corporate site instead of the Q&A platform",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to post an answer about Java exceptions, then remove the answer posted from the thread",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because the \u201cCelebrity Scoop\u201d daily newsletter subscription option was not available, preventing email entry and confirmation recording",
+    "count":1
+  },
+  {
+    "reason":"\"The bot was unable to engage with the CSS flexbox thread by posting a comment and subsequently",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to submit a request for recommendations on best practices for unit testing in Java",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to post a new question about optimizing SQL queries with correct formatting",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it clicked to save without actually inserting the required new content, so it is unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in and navigate to Data Science community and wrote an answer to a question about \"feature engineering techniques but failed to submit it",
+    "count":1
+  },
+  {
+    "reason":"The bot is unable to complete the task because the system blocks question submission unless only existing tags are used. Therefore, it couldn't complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it was just scrolling the page, but no actual changes were made or saved.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to update the question description to include the specific error messages.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because the question has not yet been posted in the Mathematics community, and therefore it cannot edit the question",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it couldn't post the comment, so there was no option available for deletion.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because the presence of the 'Delete' link suggests the user should have permission to delete their own answer, but the deletion action is not completing\u2014possibly due to a UI issue",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to achieve its goal because it was unable to select valid existing tags for the test question",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because there are two blocking issues that need to be resolved before the post can be submitted.",
+    "count":1
+  },
+  {
+    "reason":"The bot cannot post the question without re-authenticating or providing guest details",
+    "count":1
+  },
+  {
+    "reason":"The bot got stuck on a page where it couldn't write or post the answer on the website",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the 'Make a Plan' option but failed to download the file",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in and created a test draft but failed to delete it",
+    "count":1
+  },
+  {
+    "reason":"\"The bot was unable to post a celebratory 'Happy Birthday' comment on the article, including the personal note about why the celebrity is admired.",
+    "count":1
+  },
+  {
+    "reason":"The agent finds another question about this content, does not post the answer itself",
+    "count":1
+  },
+  {
+    "reason":"The bot is halted because of google login and verification which is not possible without further access",
+    "count":1
+  },
+  {
+    "reason":"Bot has failed to set the correct alert condition as it tried clicking and selecting but was unable to proceed",
+    "count":1
+  },
+  {
+    "reason":"The bot had failed to reach the server or website",
+    "count":1
+  },
+  {
+    "reason":"Bot failed to complete google login and management was stuck without progress",
+    "count":1
+  },
+  {
+    "reason":"The bot is stuck with the login process",
+    "count":1
+  },
+  {
+    "reason":"The bot tried filling and submitting the form but it was not responding on the website",
+    "count":1
+  },
+  {
+    "reason":"Bot failed to find the article by navigating the website",
+    "count":1
+  },
+  {
+    "reason":"THe agent does NOT succesfully delete. Only clicks add but fails to go and delete task from bookmarks section,",
+    "count":1
+  },
+  {
+    "reason":"Bot could not draft the proposal because of max retry limit or it could not locate the text editor",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to open or find text editor to continue search option",
+    "count":1
+  },
+  {
+    "reason":"Bot is failing to add or remove articles from the list due to some error",
+    "count":1
+  },
+  {
+    "reason":"Bot encountered a faulty comment feature or perhaps failed to actually edit or post it through the website",
+    "count":1
+  },
+  {
+    "reason":"The bot couldnt locate a comment section on the website through navigation",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it did not navigate to the 'Opinion' section.",
+    "count":1
+  },
+  {
+    "reason":"The selection page where bot can add age is not functional.",
+    "count":1
+  },
+  {
+    "reason":"Bot is redirected and cannot complete the given task with bing copilot",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the publication dates of the recipies but navigated to the chocolate cakes recipies page",
+    "count":1
+  },
+  {
+    "reason":"The bot extracted the textual list of the ingredients included but failed to print the recipe to a PDF file",
+    "count":1
+  },
+  {
+    "reason":"The bot is not able to locate the delete option and remove the post",
+    "count":1
+  },
+  {
+    "reason":"The bot has not added the other two recipes needed to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website and found an article on photosynthesis, along with its description, but later failed to copy the definition and create a document.",
+    "count":1
+  },
+  {
+    "reason":"Bot is redirected without being able to delete or edit the text",
+    "count":1
+  },
+  {
+    "reason":"Bot reached the max try error and unable to make progress",
+    "count":1
+  },
+  {
+    "reason":"Bot could not update the information from my account.",
+    "count":1
+  },
+  {
+    "reason":"Bot was unable to set the given year and date as needed and failed to extract info",
+    "count":1
+  },
+  {
+    "reason":"Bot is stuck in task running time without any further progress",
+    "count":1
+  },
+  {
+    "reason":"The bot was not able to find the delete button",
+    "count":1
+  },
+  {
+    "reason":"bot reached its max tries and was not able to find the details",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to locate any budget information on the imdb main page where movie details are given",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate due to timeout and server error",
+    "count":1
+  },
+  {
+    "reason":"The unsubscription was not confirmed and bot could not retrace the steps to do so",
+    "count":1
+  },
+  {
+    "reason":"Bot filled the form but its not confirming the submission or subscription",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to complete captcha requirement to proceed further",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the main page and extract data",
+    "count":1
+  },
+  {
+    "reason":"Bot faced a google based login but the authentication is not provided to enter details",
+    "count":1
+  },
+  {
+    "reason":"bot is taken to google acc recovery page and it could not complete the actual verification",
+    "count":1
+  },
+  {
+    "reason":"Bot is facing issue with Google authentication and cannot proceed further",
+    "count":1
+  },
+  {
+    "reason":"bot is not able to use instagram directly to post",
+    "count":1
+  },
+  {
+    "reason":"The task in stuck in running status and the bot is unable to complete it",
+    "count":1
+  },
+  {
+    "reason":"The bot is facing timeout issues and was not able to reach the server",
+    "count":1
+  },
+  {
+    "reason":"Bot is taken to an external site which is not in the task",
+    "count":1
+  },
+  {
+    "reason":"bot couldnt find download option and no manual check was done",
+    "count":1
+  },
+  {
+    "reason":"The bot was not able to reach back the to homrpage or main website",
+    "count":1
+  },
+  {
+    "reason":"Unfinished navigation due to a website crash and error which hindered further completion of the task",
+    "count":1
+  },
+  {
+    "reason":"There is a server login error which does not allow bot to login with the given credentials",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to find the exact information through the search function",
+    "count":1
+  },
+  {
+    "reason":"Bot could not navigate through the articles and topics to find the exact",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to find exact expert toddler content and scrolled without extraction",
+    "count":1
+  },
+  {
+    "reason":"Bot reached the max retry error where it could not perform more actions",
+    "count":1
+  },
+  {
+    "reason":"The agent does not submit answer to question, instead just extracts information",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the Communities section but failed to apply the Education filter. Instead, it was redirected to the homepage and extracted the output from there",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to select 'Film' as the favorite celebrity category in the profile preference survey on UsMagazine.com, and therefore could not save the preferences or capture the confirmation message",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Review the homepage three major topics insted it has extracted website sections in the output",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to solve human verification to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully Logged in, create a draft for \u201cHow to Improve Your Remote Work Setup but failed to submit it",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to post a test comment and then delete it",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to proceed as it became stuck while navigating the website, resulting in an incomplete task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully composed a new article but failed to submit it",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to write a new guide because the writing feature is only available for expreance users",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully created a new draft article but failed to submit it",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to Wikidata Query Builder and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot entered \"List of Nobel laureates.\" in search bar but failed to search for it",
+    "count":1
+  },
+  {
+    "reason":"The bot entered \"Albert Einstein\" in search bar but failed to search for it",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the 'Recent Changes' section, but it did not make any changes",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the 'Inventor' concept page instead of Albert Einstein's page",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Identify an incorrect \"occupation\" (P106) statement",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched \"Marie Curie\" but failed to add \" date of birth\"",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened and searched the website but failed to complete the task due to an error message.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate a Walmart Supercenter near Dallas, TX (zip code 75201) and was unable to check if the pharmacy",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to achieve the user goal because the Google authentication login process requires a verification code",
+    "count":1
+  },
+  {
+    "reason":"The bot used the search function but failed to extract the list of downloadable files",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to output the first 200 characters of the text.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the facility tool",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to give the results of the \"economic trends 2023\" whereas the bot has listed titles of articles from 2022, 2023, 2024",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site and accessed one article, but then continued to the sign-in process without completing the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it did not search for 'Lady Gaga'.",
+    "count":1
+  },
+  {
+    "reason":"the site needs a subscription to access some features and operate further",
+    "count":1
+  },
+  {
+    "reason":"The agent does not save final username change",
+    "count":1
+  },
+  {
+    "reason":"Bot is stuck in the login page without any progress",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to attach mention in the post",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched GIFs related to \"celebration\" but it failed to extract the hashtag for 4th one",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to reach the server or website and could not proceed",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched Brooklyn but failed to add filter for listing sale in last 7 days",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched Manhattan but failed to add filter for2-bedroom apartments and rent under $3,000 per month",
+    "count":1
+  },
+  {
+    "reason":"The bot did not complete the task of retrieving the most recent showsheet PDF for a Chelsea listing and confirming",
+    "count":1
+  },
+  {
+    "reason":"bot could not find option to make custom lists",
+    "count":1
+  },
+  {
+    "reason":"The bot is redirected to some other page and in unable to make progress",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the condition details of the product. Although it successfully extracted two products, it was unable to extract the remaining three and therefore could not complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it did not find a dedicated seasonal guide for summer activities",
+    "count":1
+  },
+  {
+    "reason":"The site requires a paid membership or trial and bot could not proceed",
+    "count":1
+  },
+  {
+    "reason":"bot is unable to create or login to any id for the website usage",
+    "count":1
+  },
+  {
+    "reason":"Bot was not able to conduct search using the given filters at once",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the example sentence for the given word",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site but got stuck in the running status and did not complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site but then got stuck on the sign-in page and did not complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot requires a signin verification code that is not available\\",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the project name, country, and main objective from the source",
+    "count":1
+  },
+  {
+    "reason":"The bot failed the task because the resulting content was in Spanish instead of Italian, despite the appropriate search filters being applied. Therefore, it was unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it did not achieve its goal, as the forum's search functionality consistently returned server errors.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed the task because it reached the website but couldn't locate any discussion on regional variations in Spanish",
+    "count":1
+  },
+  {
+    "reason":"The bot is stuck in the attempt to reach the desired length and word.",
+    "count":1
+  },
+  {
+    "reason":"Bot did not set the letter length to 6",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to not logged in, creating a new wishlist or adding products to it is not possible, preventing the task from being completed within the step limit",
+    "count":1
+  },
+  {
+    "reason":"Not confirmed if the bot has actually booked the table as it did not sign in to the website yet but the bot has reached the website and has performed the task",
+    "count":1
+  },
+  {
+    "reason":"he bot failed to retrieve any relevant results or guideline sections related to student safety, which prevented the user from accessing the necessary information on COVID-19 student guidelines",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve two video game reviews discussing violence levels and was unable to extract",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to use the search tool to search for Taylor Swift's profile",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to create a trip titled \u201cTravel Finds\u201d and got stucked in homepage",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to create a new trip plan called \u201cBeach Getaway\u201d and it has searched hotel in Cancun and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add Date of birth while booking so it could not complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to create round-trip flight from New York (JFK) to Boston",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website and logged in , but it couldnot complete the task as it wrote the comment however it could not submit it. Subsequently it searched the article again and seeing that no comment was visible took it as confirmation of task completion.",
+    "count":1
+  },
+  {
+    "reason":"There is not active newsletter subscription, to unsubscribe",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to create a personal reading list and instead kept navigating to a different sections",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it was stuck on the premium membership page and was unable to select the preferred delivery frequency on the subscription page",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate SmartWay program page insted it has extracted the output from homepage",
+    "count":1
+  },
+  {
+    "reason":"The bot fails to navigate press releases on environmental policy insted it has stucked in homepage",
+    "count":1
+  },
+  {
+    "reason":"Failed to retrieve information on the factors driving the current rise in global temperatures from the 'Climate Change' article",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Unable to retrieve the publication date from the digital magazine section",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to display the current BSE and NSE index values from the Markets dashboard, instead showing Sensex and Nifty data",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for 'cryptocurrency' but failed to retrieve the first 5 article titles and publication dates related to 'cryptocurrency regulations.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it got stuck in the ePaper\/Wealth Magazine section and couldn't navigate back to the main Economic Times website, so it was unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot did not succeed because the search functionality on Delish.com is not reliably returning the 'Air Fryer Chicken Wings' recipe, so it was unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"no recipes were saved to favorites list by the AI agent",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it couldn't create a favorites list and add Demon Slayer, so it was unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"AI agent is blocked from logging in",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched for companies categorized under \"Artificial Intelligence\" but failed to extract funding amount",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search and add \"Tesla Inc\" insted it as searched \"Tesla CADD Inc\" and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to verify CAPTCHA so it could not complete the task",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed because, during login, the website prompted for human verification, making it unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed to create the next submission process for Atlanta and was unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to log in to the facebook account",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task as the website is asking for a verification while changing the phone number",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to comment and add an emoji",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in and changed profile display name but failed to save it",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the website and navigated to the company pages, but only found the general company review form.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it couldn't post on the website, as it got stuck on the site",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched \"nodejs\/node\" but failed to determine which commit shows the largest number of file changes",
+    "count":1
+  },
+  {
+    "reason":"\"The bot failed to create a new branch named 'old-feature' in the 'sample-repo' repository and subsequently delete it using GitHub\u2019s",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to initiate a discussion on 'username\/opensource-project' to request community feedback",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to fork the 'microsoft\/vscode' repository to your GitHub",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to create a new issue titled 'Bug Report: Cannot load homepage'",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to filter search for vintage journalism",
+    "count":1
+  },
+  {
+    "reason":"The bot failed and Unable to identify the top song on the 'Songs \/ All Genres \/ Today' chart",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to find the article 'The Last of Us Part II' and was kept searching",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to list the articles related to E3 2023",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed to input the file formats along with any specified usage requirements",
+    "count":1
+  },
+  {
+    "reason":"The bot couldn't reach the website and an error message is showing in the recordings.",
+    "count":1
+  },
+  {
+    "reason":"The AI bot successfully browsed the website but couldn't collect the collection\u2019s description of the Modern UI",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in and got stucked in \"Edit\" section",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully navigated Generator tool but failed to create a new poster design and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The AI bot successfully browsed the website but failed to summarize the content, so unable to complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed because the website required subscription",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve specifications for the latest Ford Mustang and was unable to list the engine type",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to access the saved vehicle configurations, delete the selected build",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully navigated to \"Faves\" section but failed to add a photo to Faves",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully logged in but failed to create a new album",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to extract the title and publication date of the latest article about baby nutrition.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search baby strollers insted it has navigated to Nursery section and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed because it browsed and searched for the process but later got stuck on the email verification code",
+    "count":1
+  },
+  {
+    "reason":"To fill out the form, the website requires a login. The bot attempted to log in but navigated back and got stuck",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to create a test collection and hence unable complete the further tasks",
+    "count":1
+  },
+  {
+    "reason":"AI agent is blocked by google auth verification",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to got stuck in a loop reapplying the men's filter, causing it to revisit the same jackets and fail to extract details for five unique men's leather jackets",
+    "count":1
+  },
+  {
+    "reason":"The bot did not achieve the goal because it repeatedly failed to set 'Mediatype' to 'image,' resulting in no consistent image results to extract capture dates and titles",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve the first 5 archived versions of nytimes.com from 2010 and instead it has extracted the output results from 2025",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched for 'Spotify' on APKPure but failed to retrieve the latest version number and its release date from the version history section",
+    "count":1
+  },
+  {
+    "reason":"AI agent tries to use regular login when its asked to use google auth. Model failure, as it makes wrong decision on which auth system to use to enter website.",
+    "count":1
+  },
+  {
+    "reason":"proxy issue",
+    "count":1
+  },
+  {
+    "reason":"The bot logged in to the website and navigated to the Cesar Salad Recipe and tried to rate and write a review on the same but the website is showing an error and asked the bot to sign out and sign in again",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site and searched for a fall-appropriate recipe but failed to complete the task.",
+    "count":1
+  },
+  {
+    "reason":"AI agent is able to save brownies recipe to collection, but does not know how to remove it from collection after saving it there.",
+    "count":1
+  },
+  {
+    "reason":"AI agent times out before being able to submit all information necessary for recipe",
+    "count":1
+  },
+  {
+    "reason":"AI agent logs in but seems to just stop thinking process, isn't able to figure out how to find and create collection.",
+    "count":1
+  },
+  {
+    "reason":"AI agent runs out of steps before completing all the necessary recipe information for submission",
+    "count":1
+  },
+  {
+    "reason":"AI Agent is able to get to 3rd desert and almost finishes task, but ends up getting stuck and doesn't know what to do after finding 3rd desert. Ends up not making a decision and times out.",
+    "count":1
+  },
+  {
+    "reason":"AI agent runs out of steps before completing all the information necsessary to submit a recipe.",
+    "count":1
+  },
+  {
+    "reason":"The AI bot successfully completed the task",
+    "count":1
+  },
+  {
+    "reason":"AI agent is unable to figure out how to navigate to product page to message seller, isn't able to figure out how to find the seller and contact them",
+    "count":1
+  },
+  {
+    "reason":"AI Agent is unable to figure out how to enter other default info before timing out",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to redeem a coupon code that gives discounts for orders over a certain amount. and even failed to add items to the cart until there is enough total cost to redeem the coupo",
+    "count":1
+  },
+  {
+    "reason":"AI Agent is unable to click the coupons code button in aliexpress",
+    "count":1
+  },
+  {
+    "reason":"AI agent runs out of steps, spends too much time trying to add things to cart before realizing you need to log in. Model failure.",
+    "count":1
+  },
+  {
+    "reason":"The AI bot is unable to directly access the detailed eligibility criteria for the Alberta Job Grant program",
+    "count":1
+  },
+  {
+    "reason":"The AI bot failed because it completely browsed the website but couldn't find the article",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the play section",
+    "count":1
+  },
+  {
+    "reason":"AI agent is unable to navigate to messages section to delete the message before reaching max steps",
+    "count":1
+  },
+  {
+    "reason":"AI agent unable to navigate to necessary section to execute task before timeout due to long steps spent on google auth navigation",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate trending releases section insted it has extracted the output from 'All Genres' section",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate an artist\u2019s page and it  has stucked in homepage",
+    "count":1
+  },
+  {
+    "reason":"The bot failed while creating an account so it could not complete the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to filter listings in Tokyo by free Wi-Fi and was unable to list the top 3 picks.",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated 'Movie News' section but failed to extract release dates of the movies",
+    "count":1
+  },
+  {
+    "reason":"The bot was able to delete the thread successfully, but it had failed to create the thread",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to use the Side-by-side comparisons tool to compare a 2018 Ford F-150 and a 2018 Chevrolet Silverado 1500",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search for 2024 BMW 3 Series 330e",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search for 2020 Toyota Camry",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Navigate to the video reviews section and ha sreached maxium number of iterations",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the newsletter subscription page but failed to list the different newsletter options offered by Car and Driver",
+    "count":1
+  },
+  {
+    "reason":"AI agent hits max steps before finding a thread which it can comment within.",
+    "count":1
+  },
+  {
+    "reason":"AI agent is not able to click and save folder",
+    "count":1
+  },
+  {
+    "reason":"google auth blocked verification",
+    "count":1
+  },
+  {
+    "reason":"Agent times out before finishing the post",
+    "count":1
+  },
+  {
+    "reason":"The task is stuck in the running status making it a failed task",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for the physical book 'To Kill a Mockingbird' but failed to log in to the website preventing it from adding the book to the wishlist",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to access the 'Design Guidelines' page and was unable to list the recommended image",
+    "count":1
+  },
+  {
+    "reason":"Agent times out before entering all information necessary to change shipping address. Hits max steps.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add quantity 2 to the cart instead has only added 1 as sen in the recording and the actions screenshots",
+    "count":1
+  },
+  {
+    "reason":"Agent fails to find promo code section which requires navigating into payments. Does not explore this route and gets stuck on shopping cart looking for promo code application.",
+    "count":1
+  },
+  {
+    "reason":"The bot logged in but failed to  post a review for the \"Sony WH-1000XM4,\"",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add the \"Google Nest Hub\" to the wishlist, then remove it",
+    "count":1
+  },
+  {
+    "reason":"Agent is unable to figure out how to add something to the wishlist of BestBuy",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for the book 'Educated' by Tara Westover but failed to log in, which prevented it from creating a wishlist titled 'Holiday Gifts",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the 'Best Sellers' section and got  stuck on the homepage and extracted output from the homepage instead",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully navigated to \"ebooks & Nook\" section but failed to download",
+    "count":1
+  },
+  {
+    "reason":"The bot searched 'Pride and Prejudice' but failed to log in to the website preventing it from adding the book to the wishlist",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the website but did not proceed past the sign-up page.\"",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the website but got stuck on the community page and did not continue the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully created the post but failed to click the submit button.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully ensured the base salary but failed to include the bonus and location details.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully wrote a review for \u201cThe Dark Knight\u201d and gave it 7 stars, but failed to modify previously submitted review from 7 to 2 stars",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully navigated to the TV Shows category but failed to list the titles, metascores, and the number of shows with scores below 60, which are located on page 6",
+    "count":1
+  },
+  {
+    "reason":"The bot completed the review but could not delete both the review and review scores",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully searched for 'vintage denim jacket' and listed the first five results, but it only extracted the condition of the first item and failed to extract the conditions of the remaining four",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search for articles about HIIT workouts insted it has navigate dto 'Fitness\" section and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully completed the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed and While it correctly retrieved the top three headlines, it failed to include or differentiate the corresponding publication dates",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve the relevant data, as no statistics or data figures from the article were included in its response",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the 'Food' section and listed the names of the first five ready meals but it couldn't extract the prices.",
+    "count":1
+  },
+  {
+    "reason":"The bot was only able to view and print the walking directions. Attempts to switch to driving directions were repeatedly interrupted, so the bot failed to complete the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the return policy for online purchases",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for Nike Air Max Shoes from the website and the bot was stuck while checking the availability in the local store with store location set to New York City, New York",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for the manuscripts by  Mark Twain but failed to list the first 2 results",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the legislation section insted it has navigated to collection section and extracted the output",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate a digitized photograph from the website tagged as \"historical\"",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to modify the scheduled journal entry by adjusting its posting time",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to update the profile settings by adding a brief description of your interests",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to update the privacy setting of a journal entry from public to friends-only",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site but got stuck during the login process and did not provide any screen recordings.",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to create the poll titled",
+    "count":1
+  },
+  {
+    "reason":"The bot has reached another website (microsoft) when working on the task.",
+    "count":1
+  },
+  {
+    "reason":"the bot cannot confirm user autrhenticatrion and had failed to navigate further",
+    "count":1
+  },
+  {
+    "reason":"\"The bot was unable to submit feedback to the LA Times through the About\/Contact Us section in the footer, specifically under Comments and Feedback,",
+    "count":1
+  },
+  {
+    "reason":"The bot was facing signin error and could not navigate furthe",
+    "count":1
+  },
+  {
+    "reason":"The bot could have navigated further to find the exact timings on diffeent days.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to find a long read article with subheadings and has instead taken a long read article and the added the breaking news and other articles sections as sub headings.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully located Press release section but failed to extract the output for state economic development",
+    "count":1
+  },
+  {
+    "reason":"The bot redirected to other website",
+    "count":1
+  },
+  {
+    "reason":"AI agent runs out of steps due to lots of time spent on login and verification.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to access the Pinterest help article on linking Instagram to a Pinterest profile",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add a pin for a healthy chicken recipe, and remove the same pin. Confirm that the pin has been removed.",
+    "count":1
+  },
+  {
+    "reason":"The bot created a board called Healthy Recipes, and added a new pin to your \"Healthy Recipes\" board but failed to with a note.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to change the visibility of a journal entry from public to friends-only and was unable to verify",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it navigated to YouTube instead of the intended destination.",
+    "count":1
+  },
+  {
+    "reason":"The bot has not searched for reserach-related content and has just picked the trending news headlines from the main webpage.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to retrieve upcoming trainings for apprenticeship programs on Oregon.gov and was unable to list the training topics",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials as the website is asking for email verification",
+    "count":1
+  },
+  {
+    "reason":"The bot failed tto complete the task as the reservation form cannot be submitted due to two validation errors",
+    "count":1
+  },
+  {
+    "reason":"The bot treid to book the dinner reservations but  the table was no longer available at the preferred time",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to book a reservation but on the selected date the table for 4 was not available",
+    "count":1
+  },
+  {
+    "reason":"The bot set up the notification for all kind of events and not specifically for updates on live stream schedules",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to load website",
+    "count":1
+  },
+  {
+    "reason":"The bot navigated to the account settings but failed to locate the \u201cBreaking News\u201d subscription alert and delete it to disable these notifications.",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website, however the task is stuck in running status",
+    "count":1
+  },
+  {
+    "reason":"The bot could not filter the products as needed",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it got stuck while looking for shoe size 10, even though it was available on the website",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to extract the product details, even though they were present on the website, so bot has unable to complete the task",
+    "count":1
+  },
+  {
+    "reason":"Bot failed to complete because it reached its max retry limit",
+    "count":1
+  },
+  {
+    "reason":"The option of creating the wish list is not found by the bot and used",
+    "count":1
+  },
+  {
+    "reason":"The bot has exceeded the step limit and still could not complete the task by adding items i",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the website, however it failed to login using the credentials and stucked in sign in page",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add Seagate Barracuda 2TB HDD to the wishlist that it created",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because the user did not navigate to the Live section.",
+    "count":1
+  },
+  {
+    "reason":"The bot faced a website crash while using it during navigation\/",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to update the newsletter subscription preferences from daily updates",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to update the quantity of the 'Wireless Headphones' item in the shopping cart to 2",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to place an order for the 'SmokeShack' from 'Shake Shack,' including a note requesting no cheese",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Browse \"Research\" section insted it has navigated to About section and scrolling up & down",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to could not be added to or removed from the saved projects list, so confirmation of its removal was not possible",
+    "count":1
+  },
+  {
+    "reason":"The bot failed and Unable to schedule a 'Range Hood' installation appointment due to failure in selecting an available date and service option.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed and Unable to create a shopping list titled 'Weekend DIY Repairs,' so items could not be added",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to became stuck on the website and could not proceed.",
+    "count":1
+  },
+  {
+    "reason":"The bot Failed to sign in due to login issues and email verification problems",
+    "count":1
+  },
+  {
+    "reason":"The bot reached the german version of the website and failed to extract the required information.",
+    "count":1
+  },
+  {
+    "reason":"The bot searched for \"Ancient Civilizations\" in the website and got the review of the video but failed to extract the title of the video.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add \"KFC\" to the list of favorite restaurants, which prevented it from completing the task.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to Chick-fil-A was unavailable for ordering on Grubhub at the specified address, despite multiple search attempts by the bot",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to submit a review for 'Olive Garden,' highlighting your enjoyment of their pasta dishes",
+    "count":1
+  },
+  {
+    "reason":"\"The bot failed to submit a 5-star review for 'Subway,' highlighting the freshness of its vegetables",
+    "count":1
+  },
+  {
+    "reason":"The bot is unable to find more details on the given page as it is not able to navigate through these options",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to add 'Panda Express' near zip code 10004 to your list of favorite restaurants.",
+    "count":1
+  },
+  {
+    "reason":"The bot did not complete a new order for a pepperoni pizza from 'Domino's Pizza'",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to add 'Domino's Pizza' near zip code 10015",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to submit a 3-star review for 'McDonald's' that included detailed feedback",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to submit a 4-star review for 'Chipotle Mexican Grill' highlighting the customizable bowl options.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully accessed the site but failed to navigate to the 'Weekend Cooking' section.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site but did not log in on the page.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to search match report on Manchester United insted it navigated to competition section and got stucked",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to locate the match analysis of the latest Champions League game instead it navigated to the competition section and scrolled up and down",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully opened the site but did not post a review for 'Accenture'.",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully began the review submission process but failed to complete it.",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to the site restricts email alerts and newsletter sign-ups to paid members only. No free option was available, and all navigation attempts redirected to the paid membership page",
+    "count":1
+  },
+  {
+    "reason":"Bot is stuck with the captcha process without any improvement",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to submit a customer inquiry about the availability of 'Organic Bedding'",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to update the default delivery instructions in the Instacart account to \u201cLeave at the front door",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to subscribe to Kmart's newsletter by entering the user's email address",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to navigate to the exact article even after trials",
+    "count":1
+  },
+  {
+    "reason":"Unable to complete the signin page",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to navigate back to the original page and entered an external url blog",
+    "count":1
+  },
+  {
+    "reason":"Bot had failed to navigate to the URL and was not able to open the page",
+    "count":1
+  },
+  {
+    "reason":"The bot has reached max retries and cannot exactly extract the data on the given page. Failed to navigate further",
+    "count":1
+  },
+  {
+    "reason":"The bot was detected by the sites bot detection feature and could not move ahead with the task",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the captcha requirement to move forward",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because it was unable to bookmark three exam preparation articles to the favorites list",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because the site requires a unique mobile number for verification, and no newsletter subscription option is available without it",
+    "count":1
+  },
+  {
+    "reason":"Bot could not proceed due to login issues",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to update the delivery address in the Instacart profile by adding a location in Brooklyn, NY,",
+    "count":1
+  },
+  {
+    "reason":"Bot found the login button unasable even after inputing the credentials",
+    "count":1
+  },
+  {
+    "reason":"The bot failed because it got stuck while navigating the website",
+    "count":1
+  },
+  {
+    "reason":"Bot is not able to sign in with Google even after using the given credentials\\",
+    "count":1
+  },
+  {
+    "reason":"The bot successfully added a new address in New York, NY, but failed to remove it from the account, so the task was not fully completed",
+    "count":1
+  },
+  {
+    "reason":"The bot failed to complete the task because no coupon code was found on the Instacart promotions page to add to the account for an upcoming grocery order",
+    "count":1
+  },
+  {
+    "reason":"The bot created the \u201cWeekend BBQ\u201d shopping list and added \u201cColeslaw mix,\u201d but failed to add \u201cHot dogs\u201d and \u201cBuns,\u201d so the task was only partially completed",
+    "count":1
+  },
+  {
+    "reason":"Bot was stuck in scrolling rather filtering out the location manually",
+    "count":1
+  },
+  {
+    "reason":"The bot could not locate the exact details to be extracted\\",
+    "count":1
+  },
+  {
+    "reason":"Stuck with login process again even when using the given credentials",
+    "count":1
+  },
+  {
+    "reason":"The bot was unable to find the exact option to extract data",
+    "count":1
+  },
+  {
+    "reason":"The bot used the given credentials and still is stuck within the login page",
+    "count":1
+  },
+  {
+    "reason":"Bot could not locate the exact tool even with further navigation",
+    "count":1
+  },
+  {
+    "reason":"the bot could not navigate enough to locate the exact data needed for this task",
+    "count":1
+  }
+]

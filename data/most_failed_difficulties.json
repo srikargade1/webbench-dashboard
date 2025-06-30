@@ -1,0 +1,16 @@
+[
+  {
+    "difficulty":"hard",
+    "count":516,
+    "sum":279,
+    "failures":237,
+    "failure_rate":45.93
+  },
+  {
+    "difficulty":"easy",
+    "count":1936,
+    "sum":1339,
+    "failures":597,
+    "failure_rate":30.84
+  }
+]

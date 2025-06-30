@@ -1,0 +1,127 @@
+[
+  {
+    "category":"CREATE",
+    "evaluation_reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":29
+  },
+  {
+    "category":"CREATE",
+    "evaluation_reason":"The bot failed to reach the given website",
+    "count":16
+  },
+  {
+    "category":"CREATE",
+    "evaluation_reason":"The AI bot failed because repeated prompts blocked access.",
+    "count":11
+  },
+  {
+    "category":"CREATE",
+    "evaluation_reason":"The bot reached the max retry limit and was not able to repeat or proceed",
+    "count":10
+  },
+  {
+    "category":"CREATE",
+    "evaluation_reason":"Bot reach the max retry limit and wasnt able to proceed",
+    "count":8
+  },
+  {
+    "category":"DELETE",
+    "evaluation_reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":10
+  },
+  {
+    "category":"DELETE",
+    "evaluation_reason":"The AI bot failed because repeated prompts blocked access.",
+    "count":4
+  },
+  {
+    "category":"DELETE",
+    "evaluation_reason":"The bot failed to reach the given website",
+    "count":4
+  },
+  {
+    "category":"DELETE",
+    "evaluation_reason":"Bot is facing signin issues and cannot proceed because of authentication error",
+    "count":3
+  },
+  {
+    "category":"DELETE",
+    "evaluation_reason":"The bot failed to proceed because the user was unable to complete the human verification step.",
+    "count":3
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "evaluation_reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":4
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "evaluation_reason":"The bot failed to solve the human verification step, which prevented it from completing the task",
+    "count":2
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "evaluation_reason":"The bot successfully opened the page but failed to sign in.",
+    "count":2
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "evaluation_reason":"Bot was not able to find the exact information through the search function",
+    "count":1
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "evaluation_reason":"The bot did not complete the task of retrieving the most recent showsheet PDF for a Chelsea listing and confirming",
+    "count":1
+  },
+  {
+    "category":"READ",
+    "evaluation_reason":"The bot failed to reach the given website",
+    "count":31
+  },
+  {
+    "category":"READ",
+    "evaluation_reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":17
+  },
+  {
+    "category":"READ",
+    "evaluation_reason":"The bot failed to solve CAPTCHA",
+    "count":8
+  },
+  {
+    "category":"READ",
+    "evaluation_reason":"The bot is not able to reach the server or load the website",
+    "count":7
+  },
+  {
+    "category":"READ",
+    "evaluation_reason":"The bot could not reach the website and an error message is showing in the recordings.",
+    "count":5
+  },
+  {
+    "category":"UPDATE",
+    "evaluation_reason":"The bot reached the website, however it failed to login using the credentials.",
+    "count":11
+  },
+  {
+    "category":"UPDATE",
+    "evaluation_reason":"The bot failed to reach the given website",
+    "count":7
+  },
+  {
+    "category":"UPDATE",
+    "evaluation_reason":"Bot reach the max retry limit and wasnt able to proceed",
+    "count":4
+  },
+  {
+    "category":"UPDATE",
+    "evaluation_reason":"The AI bot failed because repeated prompts blocked access.",
+    "count":4
+  },
+  {
+    "category":"UPDATE",
+    "evaluation_reason":"The bot cannot login with the given credentials for the site",
+    "count":4
+  }
+]

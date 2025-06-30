@@ -1,0 +1,37 @@
+[
+  {
+    "category":"UPDATE",
+    "count":173,
+    "sum":60,
+    "failures":113,
+    "failure_rate":65.32
+  },
+  {
+    "category":"DELETE",
+    "count":149,
+    "sum":53,
+    "failures":96,
+    "failure_rate":64.43
+  },
+  {
+    "category":"CREATE",
+    "count":513,
+    "sum":214,
+    "failures":299,
+    "failure_rate":58.28
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "count":37,
+    "sum":17,
+    "failures":20,
+    "failure_rate":54.05
+  },
+  {
+    "category":"READ",
+    "count":1580,
+    "sum":1274,
+    "failures":306,
+    "failure_rate":19.37
+  }
+]

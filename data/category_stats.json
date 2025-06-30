@@ -1,0 +1,32 @@
+[
+  {
+    "category":"CREATE",
+    "total_tasks":513,
+    "num_successes":214,
+    "success_rate":41.72
+  },
+  {
+    "category":"DELETE",
+    "total_tasks":149,
+    "num_successes":53,
+    "success_rate":35.57
+  },
+  {
+    "category":"FILE_MANIPULATION",
+    "total_tasks":37,
+    "num_successes":17,
+    "success_rate":45.95
+  },
+  {
+    "category":"READ",
+    "total_tasks":1580,
+    "num_successes":1274,
+    "success_rate":80.63
+  },
+  {
+    "category":"UPDATE",
+    "total_tasks":173,
+    "num_successes":60,
+    "success_rate":34.68
+  }
+]

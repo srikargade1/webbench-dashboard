@@ -1,0 +1,14 @@
+[
+  {
+    "difficulty":"easy",
+    "total_tasks":1936,
+    "num_successes":1339,
+    "success_rate":69.16
+  },
+  {
+    "difficulty":"hard",
+    "total_tasks":516,
+    "num_successes":279,
+    "success_rate":54.07
+  }
+]

@@ -1,22 +1,16 @@
 services:
   - type: web
-    name: webbench-backend
-    env: docker
-    repo: https://github.com/srikargade1/webbench-dashboard
-    dockerfilePath: ./webbench-backend/Dockerfile
-    context: ./webbench-backend
-    plan: free
-    envVars:
-      - key: FLASK_ENV
-        value: production
-    autoDeploy: true
-
-  - type: web
     name: webbench-frontend
     env: docker
     repo: https://github.com/srikargade1/webbench-dashboard
-    dockerfilePath: ./webbench-frontend/Dockerfile
-    context: ./webbench-frontend
+    dockerfilePath: webbench-frontend/Dockerfile
+    context: webbench-frontend
     plan: free
-    envVars: []
-    autoDeploy: true
+
+  - type: web
+    name: webbench-backend
+    env: docker
+    repo: https://github.com/srikargade1/webbench-dashboard
+    dockerfilePath: webbench-backend/Dockerfile
+    context: webbench-backend
+    plan: free

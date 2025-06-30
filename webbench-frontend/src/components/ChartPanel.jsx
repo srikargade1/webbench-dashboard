@@ -56,7 +56,7 @@ function ChartPanel() {
     fetchData();
   }, []);
 
-  const difficulties = ["easy", "medium", "hard"];
+  const difficulties = ["easy", "hard"];
   const categories = [...new Set(matrixStats.map((r) => r.category))];
 
   const datasets = difficulties.map((diff) => ({
@@ -68,8 +68,6 @@ function ChartPanel() {
     backgroundColor:
       diff === "easy"
         ? "rgba(75,192,192,0.6)"
-        : diff === "medium"
-        ? "rgba(255,205,86,0.6)"
         : "rgba(255,99,132,0.6)",
   }));
 

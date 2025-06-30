@@ -4,9 +4,8 @@ services:
     env: docker
     repo: https://github.com/srikargade1/webbench-dashboard
     dockerfilePath: webbench-frontend/Dockerfile
-    context: ./webbench-frontend
-    buildCommand: ""
-    startCommand: ""
+    buildCommand: null
+    startCommand: null
     plan: free
     autoDeploy: true
 
@@ -15,8 +14,7 @@ services:
     env: docker
     repo: https://github.com/srikargade1/webbench-dashboard
     dockerfilePath: webbench-backend/Dockerfile
-    context: ./webbench-backend
-    buildCommand: ""
-    startCommand: ""
+    buildCommand: null
+    startCommand: null
     plan: free
     autoDeploy: true

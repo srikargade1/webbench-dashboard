@@ -1,0 +1,62 @@
+.upload-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.upload-card {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+}
+
+.upload-dropzone {
+  border: 2px dashed #cbd5e0;
+  border-radius: 6px;
+  padding: 30px;
+  text-align: center;
+}
+
+.upload-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #718096;
+}
+
+.upload-dropzone h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.upload-dropzone p {
+  font-size: 14px;
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+.upload-success-banner {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: #e6fffa;
+  border: 1px solid #b2f5ea;
+  text-align: center;
+}
+
+.upload-success-title {
+  font-weight: 600;
+  color: #2f855a;
+  margin-bottom: 4px;
+}
+
+.upload-success-subtitle {
+  font-size: 14px;
+  color: #2f855a;
+}

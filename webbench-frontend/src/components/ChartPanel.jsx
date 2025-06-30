@@ -32,7 +32,7 @@ function ChartPanel() {
   // https://webbench-backend.onrender.com
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("https://webbench-backend.onrender.com/site");
+      const res = await fetch("https://webbench-backend.onrender.com/stats/site");
       const catRes = await fetch("https://webbench-backend.onrender.com/stats/category");
       const matrixRes = await fetch("https://webbench-backend.onrender.com/stats/category-difficulty");
       const tasksRes = await fetch("https://webbench-backend.onrender.com/tasks");
